@@ -140,11 +140,10 @@ def wombotCursor():
 wombotCursor()  # creates and registers the "wombot" cursor shape
 
 turtle.shape("wombot")
-
 turtle.up()  # get rid of the ink
 
 # show our wombot in motion
-
+turtle.speed(1)
 turtle.setheading(90)
 turtle.forward(100)
 turtle.left(90)
@@ -155,6 +154,7 @@ turtle.forward(100)
 turtle.left(90)
 turtle.forward(100)
 turtle.left(45)
+turtle.left(90)
 turtle.forward(100)
 
 turtle.done()
